@@ -1,0 +1,152 @@
+Quick Find
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 3 4 5 6 7 8 9
+Count=0;
+
+union(9,0)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 3 4 5 6 7 8 0
+Count=2
+
+union(3,4)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 5 6 7 8 0
+Count =2
+
+union(5,8)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 8 6 7 8 0
+Count=2
+
+union(7,2)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 8 6 2 8 0
+Count=2
+
+union(2,1)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 1 4 4 8 6 1 8 0
+Count=3
+
+union(5,7)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 1 4 4 1 6 1 1 0
+Count=3
+
+union(0,3)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-4 1 1 4 4 1 6 1 1 4
+Count=3
+
+union(4,2)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-1 1 1 1 1 1 6 1 1 1
+Count=5
+Total Count=22
+/////////////////////////////////
+Quick Union
+////////////////////////////////
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 3 4 5 6 7 8 9
+
+union(9,0)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 3 4 5 6 7 8 0
+Count =2
+
+union(3,4)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 5 6 7 8 0
+Count=2
+
+union(5,8)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 8 6 7 8 0
+Count=2
+
+union(7,2)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 8 6 2 8 0
+Count=2
+
+union(2,1)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 1 4 4 8 6 2 8 0
+Count=2
+
+union(5,7)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 1 4 4 8 6 2 1 0
+Count=2
+
+union(0,3)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-4 1 1 4 4 8 6 2 1 0
+Count=2
+
+union(4,2)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-4 1 1 4 1 8 6 2 1 0
+Count=2
+Total Count=16
+///////////////////////////////
+Weighted quick union
+///////////////////////////////
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 3 4 5 6 7 8 9
+
+union(9,0)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 3 4 5 6 7 8 0
+Count=2
+
+Union(3,4)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 5 6 7 8 0
+Count=2
+
+Union(5,8)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 8 6 7 8 0
+Count=2
+
+Union(7,2)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 4 4 8 6 2 8 0
+Count=2
+
+Union(2,1)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 2 2 4 4 8 6 2 8 0
+Count=2
+
+Union(5,7)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 2 2 4 4 8 6 2 2 0
+Count=2
+
+Union(0,3)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-4 2 2 4 4 8 6 2 2 0
+Count=2
+
+
+Union(4,2)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-4 2 2 4 2 8 6 2 2 0
+Count=2
+Total count=16
+/////////////////////////////////////
+quick-union path compression
+///////////////////////////////////////
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-0 1 2 3 4 5 6 7 8 9
+
+findpath(9)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-2 2 2 4 2 8 6 2 2 2
+
+Findpath(5)
+Array index[]-0 1 2 3 4 5 6 7 8 9
+Array value[]-4 2 2 4 2 2 6 2 2 0
+
